@@ -60,7 +60,10 @@ function prostiBrojevi() {
 
 //ZAMJENA ZA 5 (4 BODA)
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
+const nekiBrojevi = [2, 4, 6, 0, 1];
+function kvadriraj() {
 
+}
 //INPUT: [2, 4, 6, 0, 1]
 //OUTPUT: [4, 16, 36, 0, 1]
 
