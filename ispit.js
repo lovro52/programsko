@@ -1,4 +1,4 @@
-/*
+
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje parne brojeve od 0 do 100 (ukljucujuci 100)
 function ispisBrojeva() {
@@ -8,7 +8,7 @@ function ispisBrojeva() {
     console.log(i);
 }
 console.log(ispisBrojeva);
-//console.log(i);
+console.log(i);
 
 
 
@@ -21,10 +21,11 @@ console.log(daniUtijednu);
 
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
-*/
+
 
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere ne uzimajuci u obzir prazna mjesta (eng. whitespaces)
+
 //INPUT: "Pisanje zadataka nije jednostavan posao";
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 35)
 
@@ -43,18 +44,19 @@ const somePeople = {
 
 //INPUT: somePeople
 //OUTPUT: "Ada"
-/*
+
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca proste brojeve
-brojevi[3,4,5,8,11];
+brojevi[3, 4, 5, 8, 11];
 function prostiBrojevi() {
     for (let broj in brojevi) {
-        if (broj%2!=0)(broj)=>{
-            return(broj)}
+        if (broj % 2 != 0) (broj) => {
+            return (broj)
         }
-        console.log(broj)
+    }
+    console.log(broj)
 }
-*/
+
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [3, 5, 11]
 
@@ -62,13 +64,11 @@ function prostiBrojevi() {
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
 const nekiBrojevi = [2, 4, 6, 0, 1];
 function kvadriraj() {
-    for (const key in object) {
-        if (Object.hasOwnProperty.call(object, key)) {
-            const element = object[key];
-
-        }
+    for (let broj in nekiBrojevi) (broj) => broj * broj; {
+        return (broj)
     }
 }
+console.log(nekiBrojevi);
 //INPUT: [2, 4, 6, 0, 1]
 //OUTPUT: [4, 16, 36, 0, 1]
 
