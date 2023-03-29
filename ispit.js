@@ -46,6 +46,14 @@ const somePeople = {
 
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca proste brojeve
+brojevi[]
+function prostiBrojevi() {
+    for (let key in brojevi) {
+        if (
+            key % 2 == 0
+        }
+}
+}
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [3, 5, 11]
 
