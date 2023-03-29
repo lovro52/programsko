@@ -62,7 +62,12 @@ function prostiBrojevi() {
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
 const nekiBrojevi = [2, 4, 6, 0, 1];
 function kvadriraj() {
+    for (const key in object) {
+        if (Object.hasOwnProperty.call(object, key)) {
+            const element = object[key];
 
+        }
+    }
 }
 //INPUT: [2, 4, 6, 0, 1]
 //OUTPUT: [4, 16, 36, 0, 1]
