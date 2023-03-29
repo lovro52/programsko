@@ -43,22 +43,24 @@ const somePeople = {
 
 //INPUT: somePeople
 //OUTPUT: "Ada"
-
+/*
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca proste brojeve
-brojevi[]
+brojevi[3,4,5,8,11];
 function prostiBrojevi() {
-    for (let key in brojevi) {
-        if (
-            key % 2 == 0
+    for (let broj in brojevi) {
+        if (broj%2!=0)(broj)=>{
+            return(broj)}
         }
+        console.log(broj)
 }
-}
+*/
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [3, 5, 11]
 
 //ZAMJENA ZA 5 (4 BODA)
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
+
 //INPUT: [2, 4, 6, 0, 1]
 //OUTPUT: [4, 16, 36, 0, 1]
 
@@ -86,5 +88,14 @@ const someEvents = [
         eventYear: 1995,
     },
 ];
+
+function eventPrije() {
+    let godina = 1992;
+    for (let event in eventPrije) {
+        if (event.eventYear < godina)
+            return (event.eventYear)
+    }
+}
+console.log(eventPrije);
 //INPUT: (someEvents, 1992)
 //OUTPUT: [{eventName: "Izasao je Python", eventYear: 1991}, {eventName: "Izasao je C++", eventYear: 1985}]*/
