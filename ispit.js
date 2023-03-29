@@ -1,12 +1,31 @@
-
+/*
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje parne brojeve od 0 do 100 (ukljucujuci 100)
+function ispisBrojeva() {
+    for (let i = 0; i <= 100; i++)(i) => {
+        return (i)
+    }
+    console.log(i);
+}
+console.log(ispisBrojeva);
+//console.log(i);
+
+*/
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
+function daniUtijednu() {
+    let dan = 1;
+    switch (dan) {
+        case 1:
+    }
+}
+//console.log(daniUtijednu);
+
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
 
+/*
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere ne uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao";
