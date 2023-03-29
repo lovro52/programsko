@@ -10,26 +10,25 @@ function ispisBrojeva() {
 console.log(ispisBrojeva);
 //console.log(i);
 
-*/
+
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
 function daniUtijednu() {
     let dan = 1;
-    switch (dan) {
-        case 1:
-    }
 }
-//console.log(daniUtijednu);
+console.log(daniUtijednu);
 
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
+*/
 
-/*
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere ne uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao";
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 35)
+
+
 
 //4 (4 BODA)
 //Napisi funkciju koja vraca najkraci kljuc u danom objektu
@@ -41,6 +40,7 @@ const somePeople = {
     Martin: "Fowler",
     Erich: "Gamma"
 }
+
 //INPUT: somePeople
 //OUTPUT: "Ada"
 
